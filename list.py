@@ -16,3 +16,11 @@ else:
 list.append("Added")
 list.insert(1, "Pikipiki")
 print(list)
+
+# To remove an element within the list
+# remove()
+list.remove('item 1')
+print(list)
+# pop do the same thing like remove method
+list.pop()
+print(list)
