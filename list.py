@@ -19,8 +19,23 @@ print(list)
 
 # To remove an element within the list
 # remove()
-list.remove('item 1')
-print(list)
+# list.remove('item 1')
+# print(list)
 # pop do the same thing like remove method
-list.pop()
-print(list)
+# list.pop()
+# print(list)
+
+# del is the method that remove only the index of the list, let me show an example
+# del list[0]
+# print(list)
+# it can delete all the list like so
+# del list
+# print(list)
+
+
+# Clear, this method clear all items of the list
+# list.clear()
+
+# this copy method help to copy the list
+myList = list.copy()
+print(myList)
