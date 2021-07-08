@@ -8,4 +8,6 @@ if a > 0:
 
 num = "Spam " * a
 print(num) 
-type(a)
+b = type(5.5)
+print(b)
+print(type(a))
